@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    // Useful only when you need to check value is there or not don't get any index
     vector<int> v = {1,3,5,2,4,6,8,4,2};
     vector<int> v2 = {1,3,5,2,4,6,8,4,2};
     // find(v.begin(),v.end(),3); // it will show error, because it return pointer not a value. So, we need a iterator to iterate through it. To handle this:- 
